@@ -2,9 +2,8 @@ from flask import Flask
 import random
 
 app=Flask(__name__)
-TOTAL_CHANCES=5
-random_number=random.randint(0,10)
-random_number=3
+random_number=random.randint(0,9)
+# random_number=3
 
 @app.route('/')
 def home():
